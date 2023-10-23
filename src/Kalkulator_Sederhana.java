@@ -4,6 +4,7 @@ public class Kalkulator_Sederhana {
     public static java.util.Scanner input = new java.util.Scanner(System.in);
     public static void main(String[] args) {
 
+
         int numbers1, numbers2, result =0;
         int choice = 5;
         System.out.println("Program Kalkulator Sederhana");
@@ -13,6 +14,7 @@ public class Kalkulator_Sederhana {
         System.out.println("4. Perkalian");
         System.out.println("5. Sisa Bagi");
         System.out.println(".............................");
+
 
         // input data
         System.out.println("Masukan Angka Pertama ");
@@ -41,6 +43,8 @@ public class Kalkulator_Sederhana {
         }
         System.out.println("Hasil: " + result);
         }
+
+
         }
 
 
