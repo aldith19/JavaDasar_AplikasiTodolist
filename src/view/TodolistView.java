@@ -2,15 +2,12 @@ package view;
 import service.TodolistService;
 import util.InputUtil;
 
-
-
 public class TodolistView {
 private TodolistService todolistService;
 
 public TodolistView(TodolistService todolistService){
     this.todolistService = todolistService;
 }
-
 
     public void showTodoList(){
         while (true) {

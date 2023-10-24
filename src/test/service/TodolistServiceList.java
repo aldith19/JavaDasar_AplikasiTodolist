@@ -15,7 +15,7 @@ public class TodolistServiceList {
 
     public static void testshowtodolist(){
         TodolistRepositoryImpl todolistRepository = new TodolistRepositoryImpl();
-        todolistRepository.data[0] = new Todolist("Belajar java");
+        //todolistRepository.data[0] = new Todolist("Belajar java");
 
         TodolistService todolistService  = new TodolistServiceImpl(todolistRepository);
 

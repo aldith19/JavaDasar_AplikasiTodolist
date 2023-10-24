@@ -4,13 +4,12 @@ import entity.Todolist;
 
 public class TodolistRepositoryImpl implements TodolistRepository {
 
-    public Todolist[] data = new Todolist[10];
+    private Todolist[] data = new Todolist[10];
 
     @Override
     public Todolist[] getAll() {
        return data ;
     }
-
 
     public boolean isfull() {
         // cek apakah model penuh?
@@ -35,7 +34,6 @@ public class TodolistRepositoryImpl implements TodolistRepository {
             }
         }
     }
-
         @Override
         public void add (Todolist todolist) {
         resizeIsFull();
